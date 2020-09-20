@@ -1,25 +1,26 @@
 let star=[];
 theta=.5;
+var f;
+
 function setup(){
       createCanvas(displayWidth,displayHeight,WEBGL);
+        canvas.parent('stars');
       frameRate(30);//Lowers framrate for smoother movement
-      for (i = 0; i < 1000; i++) {//Creates an array filled with Star objects
+      for (i = 0; i < 2000; i++) {//Creates an array filled with Star objects
           star[i] = new Star();
         }
   }
 
 function draw(){
   background(0);
- for(i=0;i<1000;i+=1){
+ for(i=0;i<1500;i+=1){
    push();
    star[i].display();
    star[i].update();
    pop();
  }
-  let greeting = 'Welcome';
-  fill('red');
-  textSize(5000)
-  text(greeting,displayWidth/2,displayHeight/2,1000,1000);
+ let time = millis();
+
 
 }
 
@@ -58,6 +59,7 @@ class Star {
       this.x=random(-displayWidth, displayWidth);
       this.y=random(-displayHeight, displayHeight);
       this.z=random(displayWidth);
+
 
     }
 

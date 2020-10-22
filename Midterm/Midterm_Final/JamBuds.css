@@ -1,0 +1,76 @@
+
+div{
+    text-align: center;
+    font-family:'Grenze Gotisch';
+    font-size:30px;
+    color: #FFFDD0;
+    padding: 20px;
+
+}
+.q1-container{
+  margin:auto;
+  display:grid;
+  grid-template-columns: 2;
+  grid-template-columns: 2;
+  grid-row-gap: 10px;
+
+}
+.opt1{
+  background: rgb(105,125,225);
+  margin: inherit;
+  grid-column: 1;
+  grid-row: 1;
+  width: 250px;
+  height: 250px;
+  font-family:'Grenze Gotisch'
+
+}
+
+.opt1:hover{
+  background:rgb(105,125,255);
+
+}
+.opt2{
+  background: rgb(105,125,225);
+  margin: inherit;
+  grid-column: 2;
+  grid-row: 1;
+  width: 250px;
+  height: 250px;
+
+}
+
+.opt2:hover{
+  background:rgb(105,125,255);
+
+
+}
+.opt3{
+  background: rgb(105,125,225);
+  margin: inherit;
+  grid-column: 1;
+  grid-row: 2;
+  width: 250px;
+  height: 250px;
+
+
+}
+
+.opt3:hover{
+  background:rgb(105,125,255);
+
+
+}
+.opt4{
+  background: rgb(105,125,225);
+  margin: inherit;
+  grid-column: 2;
+  grid-row: 2;
+  width: 250px;
+  height: 250px;
+}
+
+.opt4:hover{
+  background:rgb(105,125,255);
+
+}

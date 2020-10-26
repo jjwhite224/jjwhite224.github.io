@@ -1,3 +1,10 @@
+body{
+  background: url(background.gif);
+  font-family: 'Grenze Gotisch';
+  text-align: center;
+  background-size: cover;
+
+}
 
 div{
     text-align: center;
@@ -5,6 +12,7 @@ div{
     font-size:50px;
     color: #FFFDD0;
     padding: 20px;
+    opacity: .95;
 
 
 }
@@ -16,7 +24,8 @@ div{
 
 }
 .opt1{
-  background: rgb(105,125,225);
+  background: url(animecry.gif);
+  background-size: cover;
   margin: inherit;
   display: flex;
   justify-content: center;
@@ -28,11 +37,12 @@ div{
 }
 
 .opt1:hover{
-  background:rgb(105,125,255);
+
 
 }
 .opt2{
-  background: rgb(105,125,225);
+  background: url(animespin.gif);
+  background-size: cover;
   margin: inherit;
   display: flex;
   justify-content: center;
@@ -43,12 +53,13 @@ div{
 }
 
 .opt2:hover{
-  background:rgb(105,125,255);
+
 
 
 }
 .opt3{
-  background: rgb(105,125,225);
+  background: url(ATLA3.gif);
+  background-size: cover;
   margin: inherit;
   display: flex;
   justify-content: center;
@@ -60,7 +71,7 @@ div{
 }
 
 .opt3:hover{
-  background:rgb(105,125,255);
+
 
 
 }

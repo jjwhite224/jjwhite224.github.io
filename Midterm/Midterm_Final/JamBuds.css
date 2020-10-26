@@ -1,10 +1,22 @@
+body{
+  background:url(background.gif);
+  background-size: cover;
+  font-family: 'Grenze Gotisch';
+  text-align: center;
+  color:#FFFDD0;
 
+}
+
+h1,p{
+  text-shadow: 3px 3px #FFFDD0;
+}
 div{
     text-align: center;
     font-family:'Grenze Gotisch';
     font-size:50px;
     color: #FFFDD0;
     padding: 20px;
+    
 
 
 }
@@ -20,72 +32,72 @@ div{
 
 }
 .opt1{
-  background: rgb(105,125,225);
+  background: url(boxback.gif);
   margin: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height:350px;
   font-family:'Grenze Gotisch';
 
 }
 
 .opt1:hover{
-  background:rgb(105,125,255);
+  ;
 
 }
 .opt2{
-  background: rgb(105,125,225);
+  background: url(boxback.gif);
   margin: inherit;
   grid-column: 2;
   grid-row: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
 
 }
 
 .opt2:hover{
-  background:rgb(105,125,255);
+  ;
 
 
 }
 .opt3{
-  background: rgb(105,125,225);
+  background: url(boxback.gif);
   margin: inherit;
   grid-column: 1;
   grid-row: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
 
 
 }
 
 .opt3:hover{
-  background:rgb(105,125,255);
+  ;
 
 
 }
 .opt4{
-  background: rgb(105,125,225);
+  background: url(boxback.gif);
   margin: inherit;
   grid-column: 2;
   grid-row: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
 }
 
 .opt4:hover{
-  background:rgb(105,125,255);
+  ;
 
 }
 

@@ -1,0 +1,88 @@
+body{
+  background:url(background.gif);
+}
+
+h1, p{
+  text-shadow:3px 3px white;
+}
+div{
+    text-align: center;
+    font-family:'Grenze Gotisch';
+    font-size:50px;
+    color: #FFFDD0;
+    padding: 20px;
+
+
+}
+.q1-container{
+  margin:auto;
+  display:flex;
+
+
+
+}
+.opt1{
+  background: url(boxback.gif);
+  margin: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  font-family:'Grenze Gotisch';
+
+}
+
+.opt1:hover{
+
+
+}
+.opt2{
+  background: url(boxback.gif);
+  margin: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+
+}
+
+.opt2:hover{
+
+
+
+}
+.opt3{
+  background: url(boxback.gif);
+  margin: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+
+
+}
+
+.opt3:hover{
+
+
+
+}
+
+a:link{
+  color: #FFFDD0;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #FFFDD0;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .q1-container {
+    flex-direction: column;
+  }
+}

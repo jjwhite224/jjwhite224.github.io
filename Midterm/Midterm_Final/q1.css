@@ -86,7 +86,7 @@ a:visited{
   text-decoration: none;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1200px) {
   .q1-container {
     flex-direction: column;
   }

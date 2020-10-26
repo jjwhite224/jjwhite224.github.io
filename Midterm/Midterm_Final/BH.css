@@ -1,0 +1,29 @@
+body{
+  background:url(background.gif);
+  background-size: cover;
+  font-family: 'Grenze Gotisch';
+  align: center;
+
+}
+
+
+img{
+  align-self: center;
+
+
+}
+
+p,div,h1{
+  align-items: center;
+  text-shadow: 3px 3px white;
+}
+
+a:link{
+  color: #FFFDD0;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #FFFDD0;
+  text-decoration: none;
+}

@@ -16,7 +16,7 @@ div{
     font-size:50px;
     color: #FFFDD0;
     padding: 20px;
-    
+
 
 
 }
@@ -33,6 +33,7 @@ div{
 }
 .opt1{
   background: url(boxback.gif);
+  background-size: cover;
   margin: inherit;
   display: flex;
   justify-content: center;
@@ -49,6 +50,7 @@ div{
 }
 .opt2{
   background: url(boxback.gif);
+  background-size: cover;
   margin: inherit;
   grid-column: 2;
   grid-row: 1;
@@ -67,6 +69,7 @@ div{
 }
 .opt3{
   background: url(boxback.gif);
+  background-size: cover;
   margin: inherit;
   grid-column: 1;
   grid-row: 2;
@@ -86,6 +89,7 @@ div{
 }
 .opt4{
   background: url(boxback.gif);
+  background-size: cover;
   margin: inherit;
   grid-column: 2;
   grid-row: 2;

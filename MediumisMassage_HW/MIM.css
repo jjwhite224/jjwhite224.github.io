@@ -1,0 +1,22 @@
+body{
+  background-color: black;
+}
+
+.phrase{
+display: flex;
+flex-direction: column;
+
+
+}
+
+h1{
+ font-family: 'Work Sans', sans-serif;
+ color: white;
+
+}
+
+div{
+  font-family: 'Work Sans', sans-serif;
+  color:white;
+  font-style: italic;
+}

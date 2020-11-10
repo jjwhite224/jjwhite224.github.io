@@ -82,18 +82,18 @@ function otherfuncout(){
 function ufuncclick(){
   responseText.style.color = "rgb(105,125,225)"
   responseText.style.textShadow = "#FFFDD0 2px 2px "
-  responseText.textContent = 'The idea of you as a person in the new digital age and the idea of a person means is lost in the modern age of the internet. The medium in which "you" exist is so widespread that you become diluted in it all'
+  responseText.textContent = 'The idea of you as a person in the new digital age and the idea of what a person means is lost in the modern age of the internet. The medium in which "you" exist is so widespread that it becomes diluted in it all'
 }
 
 function famfuncclick(){
   responseText.style.color = "#980000 "
   responseText.style.textShadow = "#FFFDD0 2px 2px "
-  responseText.textContent = "Growing up I learned alot from the internet and most of my hobbies and interests come from the internet so the influence of your direct family is lessening and it's interestong how culture is diffusing so the idea of cultural appropiation is becoming more nuanced"
+  responseText.textContent = "Growing up I learned alot from the internet and most of my hobbies and interests come from the internet so the influence of your direct family is lessening and it's interesting how culture is diffusing so the idea of cultural appropiation is becoming more nuanced"
 }
 function hoodfuncclick(){
   responseText.style.color = "#0000CC "
   responseText.style.textShadow = "#FFFDD0 2px 2px "
-  responseText.textContent = "The whole world becomes your neighborhood in a sense the you experience and a wide variety of cultures and adopt what speaks to you. Inadvertantly the internet is beginning to homogenize culture"
+  responseText.textContent = "The whole world becomes your neighborhood in a sense the you experience a wide variety of cultures and adopt what speaks to you. All in all the internet is beginning to homogenize culture"
 }
 function edufuncclick(){
   responseText.style.color = "#6600FF "
@@ -103,7 +103,7 @@ function edufuncclick(){
 function jobfuncclick(){
   responseText.style.color = "#FF6600 "
   responseText.style.textShadow = "#FFFDD0 2px 2px "
-  responseText.textContent = "I didn't fully understand this section but what I got os that as we advance the job market requores more specialization and the way society is setup only a few can fill those spots and the rest are left behind and this is where society fails in helping people it doesn't give them the skills to succeed or at least not quick enough to keep up with a rapidly changing world"
+  responseText.textContent = "I didn't fully understand this section but what I got is that as we advance the job market requires more specialization and the way society is setup only a few can fill those spots and the rest are left behind and this is where society fails in helping people, it doesn't give them the skills to succeed or at least not quick enough to keep up with a rapidly changing world"
 }
 function govtfuncclick(){
   responseText.style.color = "#336600 "
@@ -113,5 +113,5 @@ function govtfuncclick(){
 function otherfuncclick(){
   responseText.style.color = "#00FFFF "
   responseText.style.textShadow = "#FFFDD0 2px 2px "
-  responseText.textContent = "This part hit home because the idea that everything you do is tracked or lasts forever has been etched into mind and to this day I am wary to post online because everyone can see it even people you don't know. The more you use the internet the more your privacy disappears and that's a scray thought at times"
+  responseText.textContent = "This part hit home because the idea that everything you do is tracked or lasts forever has been etched into mind and to this day I am wary to post online because everyone can see it even people you don't know. The more you use the internet the more your privacy disappears and that's a scary thought at times"
 }

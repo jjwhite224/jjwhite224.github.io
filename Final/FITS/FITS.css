@@ -63,7 +63,7 @@ p{
 }
 
 .selector-container{
-  align-items: center;
+  justify-content: center;
   display:flex;
   grid-gap: 15px;
   background-color: #03AABF

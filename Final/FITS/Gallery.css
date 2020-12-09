@@ -1,0 +1,81 @@
+@font-face { font-family: Mastodon; src: url('MASTOD_.otf'); }
+
+nav {
+  font-family: Mastodon;
+  background-color:white;
+
+}
+
+a{
+font-size: 20px;
+color: #03AABF;
+}
+h1{
+background-color:#03AABF;
+color: ivory;
+font-family: Mastodon;
+text-align: center;
+padding: 25px;
+font-size: 44px;
+}
+p{
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+.gallery-container{
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  grid-gap: 30px
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:10px
+
+}
+.tile{
+  padding:10px
+}
+#tile-1 img{
+  width: 600px;
+  height: 600px;
+}
+
+#tile-2 img{
+  width: 600px;
+  height: 600px;
+
+}
+#tile-3 img{
+  width: 600px;
+  height: 600px;
+
+}
+#tile-4 img{
+  width: 600px;
+  height: 600px;
+
+}
+#tile-5 img{
+  width: 600px;
+  height: 600px;
+}
+#tile-6 img{
+  width: 600px;
+  height: 600px;
+}
+#tile-7 img{
+  width: 600px;
+  height: 600px;
+}
+#tile-8 img{
+  width: 600px;
+  height: 600px;
+}
+
+#tile-9 img{
+  width: 600px;
+  height: 600px;
+}

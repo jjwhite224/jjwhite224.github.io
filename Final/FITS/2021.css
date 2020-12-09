@@ -1,0 +1,54 @@
+@font-face { font-family: Mastodon; src: url('MASTOD_.otf'); }
+
+nav {
+  font-family: Mastodon;
+  background-color:white;
+
+}
+a{
+font-size:  20px;
+}
+
+a.home{
+font-size: 30px;
+color: #03AABF;
+margin-left: 15px;
+}
+
+body {
+       background-color: #03AABF;
+   }
+   h1{
+     text-align: center;
+     font-family: Mastodon;
+     color: white;
+     font-size: 40px
+
+   }
+   h2{
+     text-align: center;
+     font-family: Mastodon;
+     color: white;
+     font-size: 32px
+
+   }
+
+
+   a:link, a:visited{
+     color:white;
+     text-decoration: none;
+     text-align: left;
+   }
+   .day1{
+     display: grid;
+     grid-gap: 25px;
+   }
+   button.r {
+       height: 150px;
+       width: 150px;
+       background-color: ivory;
+       border: 0px transparent;
+       border-radius: 50%;
+       margin: 4px;
+       padding: 4px;
+   }

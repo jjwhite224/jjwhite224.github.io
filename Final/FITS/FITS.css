@@ -1,0 +1,117 @@
+@font-face { font-family: Mastodon; src: url('MASTOD_.otf'); }
+html,body{
+  background-color: #03AABF;
+  height: 100%;
+}
+nav {
+  font-family: Mastodon;
+  background-color:#03AABF;
+
+}
+
+a{
+font-size: 25px;
+color: ivory;
+}
+
+a.btn{
+margin-top: 75px;
+padding: 25px;
+}
+
+
+.carousel .carousel-item {
+  height: 650px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+body{
+  background-color: #03AABF
+  font-family: Mastodon;
+}
+h1,h3{
+  text-align: center;
+  font-family: Mastodon;
+  color: ivory;
+  padding: 10px;
+  font-size: 55px;
+  align-self: center;
+}
+h2{
+  text-align: center;
+  font-family: Mastodon;
+  color: ivory;
+  font-size: 105px;
+  background-color: #03AABF;
+  padding: 5px;
+
+}
+div.card-columns{
+  background-color: #03AABF;
+}
+p{
+  font-family: Mastodon;
+  color: #03AABF;
+  text-align: center;
+  font-size: 30px;
+}
+
+.selector-container{
+  align-items: center;
+  display:flex;
+  grid-gap: 15px;
+  background-color: #03AABF
+}
+#tile-1{
+  margin-top: 25px;
+  display: flex;
+  background-color: #BF1803;
+  width: 650px;
+  height: 450px;
+  margin-left: 20px;
+  justify-content: center;
+
+
+}
+#tile-1 p{
+  margin-top: 450px;
+}
+
+#tile-2{
+  margin-top: 35px;
+  margin-right: 10px;
+  justify-content:center;
+}
+#tile-2 p{
+  margin-top: 650px;
+}
+#tile-3{
+display: flex;
+margin: auto;
+}
+#tile-3 p{
+  margin-top: 450px;
+}
+#tile-3 img{
+  width: 450px;
+  height: 450px;
+  margin-left: 35px;;
+  align-items: center;
+}
+#tile-4{
+  display: flex;
+  background-color: #4CBF03;
+  width: 750px;
+  height: 400px;
+  margin: auto;
+  justify-content: center;
+}
+#tile-4 p{
+  margin-top: 450px;
+}

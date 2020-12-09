@@ -1,0 +1,26 @@
+@font-face { font-family: Mastodon; src: url('MASTOD_.otf'); }
+
+nav {
+  font-family: Mastodon;
+  background-color:white;
+
+}
+
+a{
+font-size: 20px;
+color: #03AABF;
+}
+h1{
+background-color:lightblue;
+color: black;
+font-family: Mastodon;
+text-align: center;
+padding: 25px;
+font-size: 44px;
+}
+p{
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}

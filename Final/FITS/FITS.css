@@ -5,19 +5,26 @@ html,body{
 }
 nav {
   font-family: Mastodon;
-  background-color:#03AABF;
+  background-color:white;
+
 
 
 }
 
 a{
 font-size: 25px;
-color: ivory;
+color: #03AABF;
 }
 
 a.btn{
 margin-top: 75px;
 padding: 25px;
+}
+
+
+
+.nav-item{
+  margin: auto;
 }
 
 
@@ -115,4 +122,14 @@ margin: auto;
 }
 #tile-4 p{
   margin-top: 450px;
+}
+@media only screen and (max-width: 1000px) {
+  div.btn-group{
+    display: none;
+  }
+  a.btn{
+    justify-content: flex-end;
+  }
+  
+
 }

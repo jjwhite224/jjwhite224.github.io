@@ -79,22 +79,24 @@ p{
 #tile-1{
   margin-top: 25px;
   display: flex;
-  background-color: #BF1803;
-  width: 650px;
+  background-color: firebrick;
+  width: 675px;
   height: 450px;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
 
 
 }
 #tile-1 p{
   margin-top: 450px;
+
 }
 
 #tile-2{
-  margin-top: 35px;
-  margin-right: 10px;
-  justify-content:center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #tile-2 p{
   margin-top: 650px;
@@ -114,7 +116,7 @@ margin: auto;
 }
 #tile-4{
   display: flex;
-  background-color: #4CBF03;
+  background-color: orangered;
   width: 750px;
   height: 400px;
   margin: auto;
@@ -130,6 +132,6 @@ margin: auto;
   a.btn{
     justify-content: flex-end;
   }
-  
+
 
 }
